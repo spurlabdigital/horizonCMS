@@ -1,0 +1,41 @@
+title: Station
+
+columns:
+  main:
+    width: 1/2
+    sections:
+    fields:
+      text:
+        type: blocks
+        label: Beschreibung
+        required: true
+        fieldsets:
+          - heading
+          - text
+          - image
+          quelle:
+            name: Quelle
+            icon: attachment
+            fields:
+              text:
+                type: textarea
+                buttons:
+                  - link
+  sidebar:
+    width: 1/2
+    sections:
+    fields:
+      zeit:
+        label: Zeitspanne
+        type: text
+      station:
+        label: Ort
+        type: select
+        placeholder: "bitte wählen"
+        help: 'Bitte wählen Sie eine Vorlage aus'
+        required: true
+        options:
+          type: query
+          query: site.children.template("places").children.template("place").sortBy('title', 'asec')
+          text: "{{ page.title }}"
+          value: "{{ page.id }}"

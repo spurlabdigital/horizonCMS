@@ -1,0 +1,29 @@
+title: Biographie
+
+columns:
+  main:
+    width: 1/2
+    sections:
+    fields:
+      vorname:
+        label: Vorname
+        type: text
+      nachname:
+        label: Nachname
+        type: text
+      geburtsName:
+        label: Geburtsname
+        type: text
+      zeit:
+        label: Lebenszeit
+        type: text
+        
+  sidebar:
+    width: 1/2
+    sections:
+      pages:
+        type: pages
+        label: Stationen
+        template: station
+        query: page.children
+        required: true

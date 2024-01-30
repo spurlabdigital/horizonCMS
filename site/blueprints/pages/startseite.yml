@@ -1,0 +1,24 @@
+title: StartSeite
+
+columns:
+  main:
+    width: 2/3
+    sections:
+    fields:
+      headline:
+        label: Headline
+        type: text
+      subline:
+        label: Subline
+        type: text
+      textblock:
+        label: Textblock
+        type: textarea
+        size: small
+        buttons: false
+      blocks:
+        type: blocks
+        label: Blocks
+        fieldsets:
+          - text
+

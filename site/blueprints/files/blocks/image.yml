@@ -1,0 +1,8 @@
+title: Station
+
+sections:
+fields:
+  text:
+    label: Quelle
+    size: medium
+    type: textarea

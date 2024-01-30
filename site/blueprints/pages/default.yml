@@ -1,0 +1,14 @@
+title: Default Page
+
+columns:
+  main:
+    width: 2/3
+    sections:
+    fields:
+      text:
+        type: blocks
+        label: Beschreibung
+        fieldsets:
+          - heading
+          - text
+          - image

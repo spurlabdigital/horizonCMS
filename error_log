@@ -1,0 +1,411 @@
+[20-Apr-2023 14:09:45 Europe/Berlin] Kirby\Exception\NotFoundException: The default template does not exist in /home/scicomla/domains/horizon.scicomlab.de/public_html/kirby/src/Cms/Page.php:1056
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/kirby/src/Cms/App.php(799): Kirby\Cms\Page->render()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/kirby/src/Cms/App.php(1238): Kirby\Cms\App->io()
+#2 /home/scicomla/domains/horizon.scicomlab.de/public_html/index.php(5): Kirby\Cms\App->render()
+#3 {main}
+[20-Apr-2023 14:09:53 Europe/Berlin] Kirby\Exception\NotFoundException: Die "Default"-Vorlage existiert nicht in /home/scicomla/domains/horizon.scicomlab.de/public_html/kirby/src/Cms/Page.php:1056
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/kirby/src/Cms/App.php(799): Kirby\Cms\Page->render()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/kirby/src/Cms/App.php(1238): Kirby\Cms\App->io()
+#2 /home/scicomla/domains/horizon.scicomlab.de/public_html/index.php(5): Kirby\Cms\App->render()
+#3 {main}
+[20-Apr-2023 14:10:02 Europe/Berlin] Kirby\Exception\NotFoundException: Die "Default"-Vorlage existiert nicht in /home/scicomla/domains/horizon.scicomlab.de/public_html/kirby/src/Cms/Page.php:1056
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/kirby/src/Cms/App.php(799): Kirby\Cms\Page->render()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/kirby/src/Cms/App.php(1238): Kirby\Cms\App->io()
+#2 /home/scicomla/domains/horizon.scicomlab.de/public_html/index.php(5): Kirby\Cms\App->render()
+#3 {main}
+[20-Apr-2023 14:10:02 Europe/Berlin] Kirby\Exception\NotFoundException: Die "Default"-Vorlage existiert nicht in /home/scicomla/domains/horizon.scicomlab.de/public_html/kirby/src/Cms/Page.php:1056
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/kirby/src/Cms/App.php(799): Kirby\Cms\Page->render()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/kirby/src/Cms/App.php(1238): Kirby\Cms\App->io()
+#2 /home/scicomla/domains/horizon.scicomlab.de/public_html/index.php(5): Kirby\Cms\App->render()
+#3 {main}
+[03-May-2023 18:30:23 Europe/Berlin] Kirby\Exception\InvalidArgumentException: Falsches Passwort in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/User.php:872
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Auth.php(534): Kirby\Cms\User->validatePassword()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Auth.php(402): Kirby\Cms\Auth->validatePassword()
+#2 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#3 [internal function]: Kirby\Cms\Api->{closure}()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Api/Api.php(181): Closure->call()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Api.php(46): Kirby\Api\Api->call()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Api/Api.php(503): Kirby\Cms\Api->call()
+#7 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/config/routes.php(46): Kirby\Api\Api->render()
+#8 [internal function]: Kirby\Http\Route->{closure}()
+#9 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#10 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#12 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#13 {main}
+[04-May-2023 10:20:17 Europe/Berlin] Kirby\Exception\NotFoundException: Der Account "dedit@scicomlab.de" wurde nicht gefunden in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Auth.php:539
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Auth.php(402): Kirby\Cms\Auth->validatePassword()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#2 [internal function]: Kirby\Cms\Api->{closure}()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Api/Api.php(181): Closure->call()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Api.php(46): Kirby\Api\Api->call()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Api/Api.php(503): Kirby\Cms\Api->call()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/config/routes.php(46): Kirby\Api\Api->render()
+#7 [internal function]: Kirby\Http\Route->{closure}()
+#8 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#10 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#12 {main}
+[02-Jul-2023 15:16:21 Europe/Berlin] Kirby\Exception\NotFoundException: Der Account "jonas.haeutle@gmail.com" wurde nicht gefunden in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Auth.php:539
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Auth.php(402): Kirby\Cms\Auth->validatePassword()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#2 [internal function]: Kirby\Cms\Api->{closure}()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Api/Api.php(181): Closure->call()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Api.php(46): Kirby\Api\Api->call()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Api/Api.php(503): Kirby\Cms\Api->call()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/config/routes.php(46): Kirby\Api\Api->render()
+#7 [internal function]: Kirby\Http\Route->{closure}()
+#8 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#10 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#12 {main}
+[20-Jul-2023 11:29:03 Europe/Berlin] Kirby\Exception\NotFoundException: Der Account "jonas.haeutle@gmail.com" wurde nicht gefunden in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Auth.php:539
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Auth.php(402): Kirby\Cms\Auth->validatePassword()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#2 [internal function]: Kirby\Cms\Api->{closure}()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Api/Api.php(181): Closure->call()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Api.php(46): Kirby\Api\Api->call()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Api/Api.php(503): Kirby\Cms\Api->call()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/config/routes.php(46): Kirby\Api\Api->render()
+#7 [internal function]: Kirby\Http\Route->{closure}()
+#8 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#10 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#12 {main}
+[21-Jul-2023 13:33:21 Europe/Berlin] Error: Call to a member function blueprint() on null in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/site/templates/places.json.php:9
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(425): include()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#2 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Toolkit/Tpl.php(34): Kirby\Filesystem\F::load()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Template/Template.php(155): Kirby\Toolkit\Tpl::load()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Page.php(1071): Kirby\Template\Template->render()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1320): Kirby\Cms\Page->render()
+#7 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRouter.php(131): Kirby\Cms\App->resolve()
+#8 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRoutes.php(36): Kirby\Cms\LanguageRouter->call()
+#9 [internal function]: Kirby\Http\Route->Kirby\Cms\{closure}()
+#10 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#12 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#13 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#14 {main}
+[21-Jul-2023 13:35:47 Europe/Berlin] Error: Call to a member function blueprint() on null in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/site/templates/places.json.php:9
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(425): include()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#2 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Toolkit/Tpl.php(34): Kirby\Filesystem\F::load()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Template/Template.php(155): Kirby\Toolkit\Tpl::load()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Page.php(1071): Kirby\Template\Template->render()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1320): Kirby\Cms\Page->render()
+#7 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRouter.php(131): Kirby\Cms\App->resolve()
+#8 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRoutes.php(36): Kirby\Cms\LanguageRouter->call()
+#9 [internal function]: Kirby\Http\Route->Kirby\Cms\{closure}()
+#10 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#12 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#13 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#14 {main}
+[21-Jul-2023 13:35:53 Europe/Berlin] Error: Call to a member function blueprint() on null in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/site/templates/places.json.php:9
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(425): include()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#2 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Toolkit/Tpl.php(34): Kirby\Filesystem\F::load()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Template/Template.php(155): Kirby\Toolkit\Tpl::load()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Page.php(1071): Kirby\Template\Template->render()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1320): Kirby\Cms\Page->render()
+#7 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRouter.php(131): Kirby\Cms\App->resolve()
+#8 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRoutes.php(36): Kirby\Cms\LanguageRouter->call()
+#9 [internal function]: Kirby\Http\Route->Kirby\Cms\{closure}()
+#10 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#12 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#13 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#14 {main}
+[24-Jul-2023 14:11:53 Europe/Berlin] ParseError: syntax error, unexpected token "}", expecting "," or ";" in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/site/templates/persons.json.php:37
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Toolkit/Tpl.php(34): Kirby\Filesystem\F::load()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Template/Template.php(155): Kirby\Toolkit\Tpl::load()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Page.php(1071): Kirby\Template\Template->render()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1320): Kirby\Cms\Page->render()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRouter.php(131): Kirby\Cms\App->resolve()
+#7 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRoutes.php(36): Kirby\Cms\LanguageRouter->call()
+#8 [internal function]: Kirby\Http\Route->Kirby\Cms\{closure}()
+#9 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#10 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#12 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#13 {main}
+[24-Jul-2023 14:12:16 Europe/Berlin] ParseError: syntax error, unexpected token "}", expecting "," or ";" in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/site/templates/persons.json.php:37
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Toolkit/Tpl.php(34): Kirby\Filesystem\F::load()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Template/Template.php(155): Kirby\Toolkit\Tpl::load()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Page.php(1071): Kirby\Template\Template->render()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1320): Kirby\Cms\Page->render()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRouter.php(131): Kirby\Cms\App->resolve()
+#7 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRoutes.php(36): Kirby\Cms\LanguageRouter->call()
+#8 [internal function]: Kirby\Http\Route->Kirby\Cms\{closure}()
+#9 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#10 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#12 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#13 {main}
+[24-Jul-2023 14:12:18 Europe/Berlin] ParseError: syntax error, unexpected token "}", expecting "," or ";" in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/site/templates/persons.json.php:37
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#2 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Toolkit/Tpl.php(34): Kirby\Filesystem\F::load()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Template/Template.php(155): Kirby\Toolkit\Tpl::load()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Page.php(1071): Kirby\Template\Template->render()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1320): Kirby\Cms\Page->render()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRouter.php(131): Kirby\Cms\App->resolve()
+#7 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRoutes.php(36): Kirby\Cms\LanguageRouter->call()
+#8 [internal function]: Kirby\Http\Route->Kirby\Cms\{closure}()
+#9 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#10 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#12 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#13 {main}
+[28-Jul-2023 14:04:27 Europe/Berlin] Error: Call to a member function id() on null in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/site/templates/info.json.php:14
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(425): include()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#2 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Toolkit/Tpl.php(34): Kirby\Filesystem\F::load()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Template/Template.php(155): Kirby\Toolkit\Tpl::load()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Page.php(1071): Kirby\Template\Template->render()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1320): Kirby\Cms\Page->render()
+#7 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRouter.php(131): Kirby\Cms\App->resolve()
+#8 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRoutes.php(36): Kirby\Cms\LanguageRouter->call()
+#9 [internal function]: Kirby\Http\Route->Kirby\Cms\{closure}()
+#10 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#12 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#13 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#14 {main}
+[28-Jul-2023 14:04:47 Europe/Berlin] Whoops\Exception\ErrorException: Undefined variable $entryChild in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/site/templates/info.json.php:13
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/site/templates/info.json.php(13): Whoops\Run->handleError()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(425): include('/home/scicomla/...')
+#2 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Toolkit/Tpl.php(34): Kirby\Filesystem\F::load()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Template/Template.php(155): Kirby\Toolkit\Tpl::load()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Page.php(1071): Kirby\Template\Template->render()
+#7 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1320): Kirby\Cms\Page->render()
+#8 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRouter.php(131): Kirby\Cms\App->resolve()
+#9 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRoutes.php(36): Kirby\Cms\LanguageRouter->call()
+#10 [internal function]: Kirby\Http\Route->Kirby\Cms\{closure}()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#12 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#13 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#14 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#15 {main}
+[28-Aug-2023 15:09:17 Europe/Berlin] Kirby\Exception\NotFoundException: Der Account "jonas.haeutle@gmail.com" wurde nicht gefunden in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Auth.php:539
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Auth.php(402): Kirby\Cms\Auth->validatePassword()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#2 [internal function]: Kirby\Cms\Api->{closure}()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Api/Api.php(181): Closure->call()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Api.php(46): Kirby\Api\Api->call()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Api/Api.php(503): Kirby\Cms\Api->call()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/config/routes.php(46): Kirby\Api\Api->render()
+#7 [internal function]: Kirby\Http\Route->{closure}()
+#8 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#10 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#12 {main}
+[28-Aug-2023 21:48:14 Europe/Berlin] Kirby\Exception\NotFoundException: Der Account "jh@scicom-lab.de" wurde nicht gefunden in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Auth.php:539
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Auth.php(402): Kirby\Cms\Auth->validatePassword()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#2 [internal function]: Kirby\Cms\Api->{closure}()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Api/Api.php(181): Closure->call()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Api.php(46): Kirby\Api\Api->call()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Api/Api.php(503): Kirby\Cms\Api->call()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/config/routes.php(46): Kirby\Api\Api->render()
+#7 [internal function]: Kirby\Http\Route->{closure}()
+#8 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#10 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#12 {main}
+[19-Sep-2023 15:59:30 Europe/Berlin] Kirby\Exception\NotFoundException: Der Account "testzugang@scicom.lab" wurde nicht gefunden in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Auth.php:539
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Auth.php(402): Kirby\Cms\Auth->validatePassword()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#2 [internal function]: Kirby\Cms\Api->{closure}()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Api/Api.php(181): Closure->call()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Api.php(46): Kirby\Api\Api->call()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Api/Api.php(503): Kirby\Cms\Api->call()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/config/routes.php(46): Kirby\Api\Api->render()
+#7 [internal function]: Kirby\Http\Route->{closure}()
+#8 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#10 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#12 {main}
+[25-Sep-2023 13:32:54 Europe/Berlin] Kirby\Exception\NotFoundException: Der Account "sts@scicom-lab.com" wurde nicht gefunden in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Auth.php:539
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Auth.php(402): Kirby\Cms\Auth->validatePassword()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#2 [internal function]: Kirby\Cms\Api->{closure}()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Api/Api.php(181): Closure->call()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Api.php(46): Kirby\Api\Api->call()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Api/Api.php(503): Kirby\Cms\Api->call()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/config/routes.php(46): Kirby\Api\Api->render()
+#7 [internal function]: Kirby\Http\Route->{closure}()
+#8 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#10 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#12 {main}
+[20-Oct-2023 11:39:26 Europe/Berlin] Kirby\Exception\NotFoundException: Der Account "jonas.haeutle@gmail.com" wurde nicht gefunden in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Auth.php:539
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Auth.php(402): Kirby\Cms\Auth->validatePassword()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#2 [internal function]: Kirby\Cms\Api->{closure}()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Api/Api.php(181): Closure->call()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Api.php(46): Kirby\Api\Api->call()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Api/Api.php(503): Kirby\Cms\Api->call()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/config/routes.php(46): Kirby\Api\Api->render()
+#7 [internal function]: Kirby\Http\Route->{closure}()
+#8 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#10 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#12 {main}
+[20-Oct-2023 11:44:19 Europe/Berlin] Error: Method name must be a string in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/site/templates/start.json.php:20
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(425): include()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#2 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Toolkit/Tpl.php(34): Kirby\Filesystem\F::load()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Template/Template.php(155): Kirby\Toolkit\Tpl::load()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Page.php(1071): Kirby\Template\Template->render()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1320): Kirby\Cms\Page->render()
+#7 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRouter.php(131): Kirby\Cms\App->resolve()
+#8 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRoutes.php(36): Kirby\Cms\LanguageRouter->call()
+#9 [internal function]: Kirby\Http\Route->Kirby\Cms\{closure}()
+#10 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#12 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#13 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#14 {main}
+[20-Oct-2023 11:44:43 Europe/Berlin] Error: Method name must be a string in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/site/templates/start.json.php:20
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(425): include()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#2 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Toolkit/Tpl.php(34): Kirby\Filesystem\F::load()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Template/Template.php(155): Kirby\Toolkit\Tpl::load()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Page.php(1071): Kirby\Template\Template->render()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1320): Kirby\Cms\Page->render()
+#7 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRouter.php(131): Kirby\Cms\App->resolve()
+#8 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRoutes.php(36): Kirby\Cms\LanguageRouter->call()
+#9 [internal function]: Kirby\Http\Route->Kirby\Cms\{closure}()
+#10 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#12 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#13 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#14 {main}
+[20-Oct-2023 11:44:52 Europe/Berlin] Error: Call to a member function value() on string in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/site/templates/start.json.php:20
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(425): include()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#2 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Toolkit/Tpl.php(34): Kirby\Filesystem\F::load()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Template/Template.php(155): Kirby\Toolkit\Tpl::load()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Page.php(1071): Kirby\Template\Template->render()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1320): Kirby\Cms\Page->render()
+#7 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRouter.php(131): Kirby\Cms\App->resolve()
+#8 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRoutes.php(36): Kirby\Cms\LanguageRouter->call()
+#9 [internal function]: Kirby\Http\Route->Kirby\Cms\{closure}()
+#10 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#12 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#13 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#14 {main}
+[20-Oct-2023 11:46:06 Europe/Berlin] Whoops\Exception\ErrorException: Undefined property: Kirby\Cms\Page::$https://horizon.scicomlab.de/cms/de in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/site/templates/start.json.php:20
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/site/templates/start.json.php(20): Whoops\Run->handleError()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(425): include('/home/scicomla/...')
+#2 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Toolkit/Tpl.php(34): Kirby\Filesystem\F::load()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Template/Template.php(155): Kirby\Toolkit\Tpl::load()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Page.php(1071): Kirby\Template\Template->render()
+#7 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1320): Kirby\Cms\Page->render()
+#8 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRouter.php(131): Kirby\Cms\App->resolve()
+#9 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRoutes.php(36): Kirby\Cms\LanguageRouter->call()
+#10 [internal function]: Kirby\Http\Route->Kirby\Cms\{closure}()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#12 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#13 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#14 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#15 {main}
+[20-Oct-2023 11:46:38 Europe/Berlin] Whoops\Exception\ErrorException: Undefined property: Kirby\Cms\Page::$https://horizon.scicomlab.de/cms/de in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/site/templates/start.json.php:20
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/site/templates/start.json.php(20): Whoops\Run->handleError()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(425): include('/home/scicomla/...')
+#2 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(364): Kirby\Filesystem\F::loadIsolated()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Filesystem/F.php(372): Kirby\Filesystem\F::Kirby\Filesystem\{closure}()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Toolkit/Tpl.php(34): Kirby\Filesystem\F::load()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Template/Template.php(155): Kirby\Toolkit\Tpl::load()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Page.php(1071): Kirby\Template\Template->render()
+#7 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1320): Kirby\Cms\Page->render()
+#8 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRouter.php(131): Kirby\Cms\App->resolve()
+#9 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/LanguageRoutes.php(36): Kirby\Cms\LanguageRouter->call()
+#10 [internal function]: Kirby\Http\Route->Kirby\Cms\{closure}()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#12 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#13 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#14 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#15 {main}
+[30-Oct-2023 09:56:59 Europe/Berlin] Kirby\Exception\NotFoundException: Der Account "sts@scicom-lab.com" wurde nicht gefunden in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Auth.php:539
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Auth.php(402): Kirby\Cms\Auth->validatePassword()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#2 [internal function]: Kirby\Cms\Api->{closure}()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Api/Api.php(181): Closure->call()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Api.php(46): Kirby\Api\Api->call()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Api/Api.php(503): Kirby\Cms\Api->call()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/config/routes.php(46): Kirby\Api\Api->render()
+#7 [internal function]: Kirby\Http\Route->{closure}()
+#8 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#10 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#12 {main}
+[06-Nov-2023 15:37:09 Europe/Berlin] Kirby\Exception\NotFoundException: Der Account "jh@scicom-lab.com" wurde nicht gefunden in /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Auth.php:539
+Stack trace:
+#0 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Auth.php(402): Kirby\Cms\Auth->validatePassword()
+#1 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/config/api/routes/auth.php(70): Kirby\Cms\Auth->login()
+#2 [internal function]: Kirby\Cms\Api->{closure}()
+#3 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Api/Api.php(181): Closure->call()
+#4 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/Api.php(46): Kirby\Api\Api->call()
+#5 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Api/Api.php(503): Kirby\Cms\Api->call()
+#6 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/config/routes.php(46): Kirby\Api\Api->render()
+#7 [internal function]: Kirby\Http\Route->{closure}()
+#8 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(341): Kirby\Http\Router->call()
+#10 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/kirby/src/Cms/App.php(1238): Kirby\Cms\App->call()
+#11 /home/scicomla/domains/horizon.scicomlab.de/public_html/cms/index.php(5): Kirby\Cms\App->render()
+#12 {main}

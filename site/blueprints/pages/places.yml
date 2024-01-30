@@ -1,0 +1,15 @@
+title: Standorte
+
+columns:
+  sidebar:
+    width: 2/2
+    sections:
+      orte:
+        headline: Orte
+        type: pages
+        template: place
+        sortBy: title
+        limit: 100
+        search: true
+        text: "{{ page.title }}"
+        info: '{{ page.tag }}'

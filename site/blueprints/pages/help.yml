@@ -1,0 +1,22 @@
+title: Helpscreen
+
+columns:
+  main:
+    width: 2/3
+    sections:
+    fields:
+      headline:
+        label: Headline
+        type: text
+      textA:
+        label: TextA
+        type: text
+      textB:
+        label: TextB
+        type: text
+      headline2:
+        label: Headline
+        type: text
+      textC:
+        label: TextC
+        type: writer

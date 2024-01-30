@@ -1,0 +1,39 @@
+title: Ort
+
+columns:
+  main:
+    width: 1/2
+    sections:
+    fields:
+      text:
+        type: blocks
+        label: Beschreibung
+        required: true
+        fieldsets:
+          - heading
+          - text
+          - image
+          quelle:
+            name: Quelle
+            icon: attachment
+            fields:
+              text:
+                type: textarea
+                buttons:
+                  - link
+  sidebar:
+    width: 1/2
+    sections:
+    fields:
+      tag:
+        label: Tags
+        type: tags
+        options: query
+        help: 'Please add a "#" before the tag. Example: "#tag"'
+        query: site.children.template("places").children.template("place").pluck("tag", ",", true)
+        translate: false
+      geolocation:
+        label: Location
+        type: locator
+        tiles: openstreetmap
+        required: true
